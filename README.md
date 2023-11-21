@@ -13,8 +13,3 @@ Key Features:
 🌟 Versatile Log Types: From warning and error to info, action, and success, Logger supports all the log types you need. Customize your logs for better readability and understandability.
 
 🌟 Fancy Customization: Make your logs stand out with fancy customization! Add colors, emojis, or any other personal touch to make your logs more engaging and fun.
-
-
-## Example Usage
-
-<img width="1009" alt="logg" src="https://github.com/alperozturk96/Logger/assets/67455295/ddc4546d-3aa0-4208-8f6b-8e12613f6f50">
