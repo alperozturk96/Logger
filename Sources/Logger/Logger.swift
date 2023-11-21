@@ -9,7 +9,7 @@ public struct Logger {
         self.onlyLogInDebugMode = onlyLogInDebugMode
     }
     
-    private let osLogger: os.Logger = .init(subsystem: Bundle.main.bundleIdentifier!, category: "lipa")
+    private let osLogger: os.Logger = .init()
     
     private var shouldLog: Bool {
         #if DEBUG
@@ -38,7 +38,7 @@ extension Logger {
         case .success:
             osLogger.notice("\("✅ " + message)")
         case .withoutIcon:
-            print(message)
+            osLogger.info("\(message)")
         }
     }
 }
